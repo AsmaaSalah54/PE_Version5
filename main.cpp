@@ -3,6 +3,8 @@
 // Function to calculate the summation of two numbers
 double differences(double a, double b) {
     return a - b;
+double multipling(double a, double b) {
+    return a * b;
 }
 
 
@@ -19,6 +21,8 @@ int main() {
 
     // Perform operations and print results
     std::cout << "Operation: " << differences(num1, num2) << std::endl;
+
+    std::cout << "Operation: " << multipling(num1, num2) << std::endl;
    
     return 0;
 }
